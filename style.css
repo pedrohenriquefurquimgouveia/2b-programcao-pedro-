@@ -1,1 +1,13 @@
+:root{
+    --dourado : #BC6C25;
+    --preto : #000000;
+   --cinza-escuro: #343A40;
+}
 
+.cabecalho{
+    background-color; var(--dourado);
+}
+
+.logo{
+    width:10%;
+}
