@@ -5,9 +5,21 @@
 }
 
 .cabecalho{
-    background-color; var(--dourado);
+    background-color: var(--dourado);
+display: flex;
+justify-content: center:
+
 }
+.menu-item{
+   display: inline-block;
+   padding: 7px;
+   color: var(--preto--);
+   margin-top:20px ;
+}
+
+
 
 .logo{
     width:10%;
+    margin: 10px;
 }
