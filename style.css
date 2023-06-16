@@ -1,36 +1,15 @@
+@import url("style/header.css");
+
 :root{
-    --dourado : #BC6C25;
-    --preto : #000000;
-   --cinza-escuro: #343A40;
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "poppins";
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.cabecalho{
-    background-color: var(--dourado);
-display: flex;
-justify-content: center:
-
-}
-.menu-item{
-   display: inline-block;
-   padding: 10px;
-   color: var(--preto--);
-   margin:- top 10px ;
-}
-
-
-
-.logo{
-    width:15%;
-    margin: 50px;
-}
-
-.principal{
-background-color: var(--dourado);
-background-image: linear-gradient(var(--dourado,var(--preto));
-display: flex;
-
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
